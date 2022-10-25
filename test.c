@@ -3,8 +3,6 @@ struct process {
     int id,wait,ser,tottime;
 } p[20];
 
-
-
 main() {
     int i,n,j,totalwait=0,totalser=0,avturn,avwait;
     printf("enter number of process");
